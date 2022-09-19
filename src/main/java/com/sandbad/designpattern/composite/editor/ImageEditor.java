@@ -1,6 +1,7 @@
 package com.sandbad.designpattern.composite.editor;
 
 import com.sandbad.designpattern.composite.shapes.CompoundShape;
+import com.sandbad.designpattern.composite.shapes.Shape;
 
 import javax.swing.*;
 import javax.swing.border.Border;
