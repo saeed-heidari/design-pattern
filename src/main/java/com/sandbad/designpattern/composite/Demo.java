@@ -20,7 +20,7 @@ public class Demo {
                         new Circle(110, 110, 50, Color.RED),
                         new Dot(160, 160, Color.RED)
                 ),
-                
+
 
                 new CompoundShape(
                         new Rectangle(250, 250, 100, 100, Color.black),
