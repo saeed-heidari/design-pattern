@@ -11,6 +11,18 @@
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
+        <gitabin.common.version>0.0.24-dev</gitabin.common.version>
+
     </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.gitabin</groupId>
+            <artifactId>gitabin-common</artifactId>
+            <version>${gitabin.common.version}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
