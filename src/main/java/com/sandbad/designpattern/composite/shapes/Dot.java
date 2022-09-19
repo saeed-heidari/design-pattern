@@ -1,4 +1,4 @@
-package com.sandbad.designpattern.composite.shapes.impl;
+package com.sandbad.designpattern.composite.shapes;
 
 import java.awt.*;
 
@@ -6,7 +6,7 @@ public class Dot extends BaseShape {
 
     private final int DOT_SIZE = 3;
 
-    Dot(int x, int y, Color color) {
+    public Dot(int x, int y, Color color) {
         super(x, y, color);
     }
 

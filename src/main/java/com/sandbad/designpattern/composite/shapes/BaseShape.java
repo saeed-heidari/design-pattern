@@ -1,6 +1,4 @@
-package com.sandbad.designpattern.composite.shapes.impl;
-
-import com.sandbad.designpattern.composite.shapes.Shape;
+package com.sandbad.designpattern.composite.shapes;
 
 import java.awt.*;
 
