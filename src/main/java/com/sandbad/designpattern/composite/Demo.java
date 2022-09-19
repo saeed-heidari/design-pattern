@@ -21,6 +21,7 @@ public class Demo {
                         new Dot(160, 160, Color.RED)
                 ),
 
+
                 new CompoundShape(
                         new Rectangle(250, 250, 100, 100, Color.black),
                         new Dot(240, 240, Color.GREEN),
