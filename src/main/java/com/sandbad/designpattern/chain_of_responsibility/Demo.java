@@ -19,6 +19,7 @@ public class Demo {
         // components.
         Middleware middleware = Middleware.link(
                 new ThrottlingMiddleware(2),
+                new ThrottlingMiddleware(3),
                 new UserExistsMiddleware(server),
                 new RoleCheckMiddleware()
         );
